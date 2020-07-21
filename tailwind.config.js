@@ -36,6 +36,7 @@ module.exports = {
             spin: 'spin 1s linear infinite',
             'stepped-spin': 'spin 1s steps(8) infinite',
             pulse: 'pulse 1s cubic-bezier(0.4, 0, 1, 1) infinite',
+            fade: 'fade 2s cubic-bezier(0.4, 0, 0.2, 1) infinite',
             'wiggle-up': 'wiggle-up 1s infinite',
             'wiggle-right': 'wiggle-right 1s infinite',
             'wiggle-down': 'wiggle-down 1s infinite',
@@ -50,6 +51,11 @@ module.exports = {
               '0%': { transform: 'scale(1)', opacity: '0' },
               '50%': { opacity: '1' },
               '100%': { transform: 'scale(2)', opacity: '0' },
+            },
+            fade: {
+              '0%': { opacity: '1' },
+              '50%': { opacity: '.5' },
+              '100%': { opacity: '1' },
             },
             'wiggle-up': {
               '0%': {
