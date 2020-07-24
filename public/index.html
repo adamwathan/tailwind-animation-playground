@@ -10,6 +10,19 @@
   </head>
   <body class="antialiased">
     <div class="p-24 space-y-12">
+      <div class="fixed inset-x-0 bottom-0 flex justify-center p-6 space-x-72">
+        <svg
+          class="animate-bounce w-8 h-8 text-black"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+      </div>
       <div class="flex space-x-12">
         <div>
           <p class="text-center text-sm leading-5 text-gray-600 mb-2">
@@ -46,29 +59,6 @@
         </div>
         <div>
           <p class="text-center text-sm leading-5 text-gray-600 mb-2">
-            Stepped spin
-          </p>
-          <span class="inline-flex rounded-md shadow-sm">
-            <button
-              type="button"
-              class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
-            >
-              <svg
-                class="animate-stepped-spin -ml-1 mr-3 h-5 w-5 text-white text-opacity-75"
-                viewBox="0 0 512 512"
-                fill="currentColor"
-              >
-                <path
-                  fill="currentColor"
-                  d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z"
-                ></path>
-              </svg>
-              Button text
-            </button>
-          </span>
-        </div>
-        <div>
-          <p class="text-center text-sm leading-5 text-gray-600 mb-2">
             Pulse
           </p>
           <span class="relative inline-flex rounded-md shadow-sm">
@@ -88,38 +78,21 @@
         </div>
         <div>
           <p class="text-center text-sm leading-5 text-gray-600 mb-2">
-            Wiggle
+            Bounce
           </p>
-          <span class="inline-flex rounded-md shadow-sm">
-            <button
-              type="button"
-              class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
+          <div class="flex justify-center py-2.5 w-40">
+            <svg
+              class="animate-bounce w-6 h-6 text-gray-900"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
-              Button text
-              <svg
-                class="animate-wiggle-right ml-3 -mr-1 h-5 w-5"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-            </button>
-          </span>
-        </div>
-        <div>
-          <p class="text-center text-sm leading-5 text-gray-600 mb-2">
-            Wobble
-          </p>
-          <span class="animate-wobble inline-flex rounded-md shadow-sm">
-            <button
-              type="button"
-              class="h-11 w-11 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
-            ></button>
-          </span>
+              <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+          </div>
         </div>
       </div>
       <div class="flex space-x-12">
